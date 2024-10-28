@@ -1,1 +1,3 @@
-# DataStealing
+# DataStealing: Steal Data from Diffusion Models in Federated Learning with Multiple Trojans [NeurIPS 2024]
+
+Coming Soon...
