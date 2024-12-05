@@ -2,11 +2,9 @@
     
 # DataStealing: Steal Data from Diffusion Models in Federated Learning with Multiple Trojans [NeurIPS 2024]
 
-
-
 <a href="https://yuangan.github.io/"><strong>Yuan Gan</strong></a>
 ·
-<a href="https://z-x-yang.github.io/"><strong>Jiaxu Miao</strong></a>
+<a href="https://scholar.google.com/citations?user=kQ-FWd8AAAAJ&hl=zh-CN&oi=ao"><strong>Jiaxu Miao</strong></a>
 ·
 <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=en"><strong>Yi Yang</strong></a>
 
