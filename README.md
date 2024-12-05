@@ -8,12 +8,23 @@
 ·
 <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=en"><strong>Yi Yang</strong></a>
 
-<a href="https://github.com/yuangan/DataStealing"><img src="./figures/intro.png" style="width: 225px;"></a>
-
-    Federated Learning (FL) is commonly used to collaboratively train models with privacy preservation. In this paper, we found out that the popular diffusion models have introduced a new vulnerability to FL, which brings serious privacy threats. Despite stringent data management measures, attackers can steal massive private data from local clients through multiple Trojans, which control generative behaviors with multiple triggers. We refer to the new task as DataStealing and demonstrate that the attacker can achieve the purpose based on our proposed Combinatorial Triggers (ComboTs) in a vanilla FL system. However, advanced distance-based FL defenses are still effective in filtering the malicious update according to the distances between each local update. Hence, we propose an Adaptive Scale Critical Parameters (AdaSCP) attack to circumvent the defenses and seamlessly incorporate malicious updates into the global model. Specifically, AdaSCP evaluates the importance of parameters with the gradients in dominant timesteps of the diffusion model. Subsequently, it adaptively seeks the optimal scale factor and magnifies critical parameter updates before uploading to the server. As a result, the malicious update becomes similar to the benign update, making it difficult for distance-based defenses to identify. Extensive experiments reveal the risk of leaking thousands of images in training diffusion models with FL. Moreover, these experiments demonstrate the effectiveness of AdaSCP in defeating advanced distance-based defenses. We hope this work will attract more attention from the FL community to the critical privacy security issues of Diffusion Models.
+<a href="https://github.com/yuangan/DataStealing"><img src="./figures/intro.png" style="width: 1225px;"></a>
 
 </div>
 <div align="justify">
+
+**Abstract**: Federated Learning (FL) is commonly used to collaboratively train models with privacy preservation. 
+In this paper, we found out that the popular diffusion models have introduced a new vulnerability to FL, which brings serious privacy threats. 
+Despite stringent data management measures, attackers can steal massive private data from local clients through multiple Trojans, which control 
+generative behaviors with multiple triggers. We refer to the new task as DataStealing and demonstrate that the attacker can achieve the purpose 
+based on our proposed Combinatorial Triggers (ComboTs) in a vanilla FL system. However, advanced distance-based FL defenses are still effective 
+in filtering the malicious update according to the distances between each local update. Hence, we propose an Adaptive Scale Critical Parameters 
+(AdaSCP) attack to circumvent the defenses and seamlessly incorporate malicious updates into the global model. Specifically, AdaSCP evaluates 
+the importance of parameters with the gradients in dominant timesteps of the diffusion model. Subsequently, it adaptively seeks the optimal 
+scale factor and magnifies critical parameter updates before uploading to the server. As a result, the malicious update becomes similar to 
+the benign update, making it difficult for distance-based defenses to identify. Extensive experiments reveal the risk of leaking thousands 
+of images in training diffusion models with FL. Moreover, these experiments demonstrate the effectiveness of AdaSCP in defeating advanced 
+distance-based defenses. We hope this work will attract more attention from the FL community to the critical privacy security issues of Diffusion Models.
 
 ## Setup & Preparation
 
