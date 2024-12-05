@@ -30,8 +30,8 @@ distance-based defenses. We hope this work will attract more attention from the 
 
 ### Environment Setup
 ```
-mamba create -n datastealing python=3.9
-mamba install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+conda create -n datastealing python=3.9
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 pip install absl-py==2.1.0 tensorboardX==2.6.2.2 tqdm==4.66.1 imageio==2.34.0 scipy==1.12.0 
 pip install scikit-learn==1.4.1.post1 matplotlib==3.8.0 ray==2.9.1 pytorch-fid==0.3.0
 ```
