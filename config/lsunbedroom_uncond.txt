@@ -1,0 +1,17 @@
+--dataset_name=lsunbedroom
+--T=1000
+--batch_size=8
+--beta_1=0.0001
+--beta_T=0.02
+--ema_decay=0.9999
+--noeval
+--eval_step=0
+--fid_cache=./data/lsun_bedroom256
+--nofid_use_torch
+--grad_clip=1.0
+--img_size=256
+--mean_type=epsilon
+--num_res_blocks=2
+--num_workers=8
+--noparallel
+--train

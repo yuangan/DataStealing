@@ -1,0 +1,133 @@
+INFO:root:round: 0
+INFO:root:use diffusion importance: 2, 0.4 True
+INFO:root:upblocks.13.block2.3, tmp_sum: 172032
+INFO:root:downblocks.0.block1.2, tmp_sum: 180224
+INFO:root:time_embedding.timembedding.3, tmp_sum: 2443776
+INFO:root:time_embedding.timembedding.1, tmp_sum: 254080
+INFO:root:upblocks.12.block2.3, tmp_sum: 180224
+INFO:root:upblocks.11.main, tmp_sum: 344064
+INFO:root:downblocks.1.block1.2, tmp_sum: 90112
+INFO:root:upblocks.10.attn.proj, tmp_sum: 385024
+INFO:root:upblocks.10.attn.proj_v, tmp_sum: 150528
+INFO:root:upblocks.9.attn.proj, tmp_sum: 204800
+INFO:root:upblocks.9.attn.proj_v, tmp_sum: 141312
+INFO:root:downblocks.3.attn.proj, tmp_sum: 1056768
+INFO:root:downblocks.3.attn.proj_v, tmp_sum: 156672
+INFO:root:downblocks.3.block1.2, tmp_sum: 253952
+INFO:root:upblocks.8.attn.proj, tmp_sum: 409600
+INFO:root:upblocks.8.attn.proj_v, tmp_sum: 140288
+INFO:root:upblocks.7.main, tmp_sum: 155648
+INFO:root:downblocks.4.attn.proj_v, tmp_sum: 157696
+INFO:root:downblocks.4.block1.2, tmp_sum: 327680
+INFO:root:upblocks.6.block2.3, tmp_sum: 783360
+INFO:root:upblocks.5.block2.3, tmp_sum: 172032
+INFO:root:downblocks.6.block1.2, tmp_sum: 327680
+INFO:root:upblocks.4.block2.3, tmp_sum: 344064
+INFO:root:upblocks.3.main, tmp_sum: 155648
+INFO:root:downblocks.7.block1.2, tmp_sum: 327680
+INFO:root:upblocks.2.block2.3, tmp_sum: 547840
+INFO:root:downblocks.10.block1.2, tmp_sum: 163840
+INFO:root:middleblocks.0.attn.proj_v, tmp_sum: 131072
+INFO:root:middleblocks.0.block1.2, tmp_sum: 163840
+INFO:root:middleblocks.1.block1.2, tmp_sum: 491520
+INFO:root:upblocks.0.block1.2, tmp_sum: 237568
+INFO:root:upblocks.1.block1.2, tmp_sum: 237568
+INFO:root:upblocks.4.block1.2, tmp_sum: 712704
+INFO:root:upblocks.5.block1.2, tmp_sum: 237568
+INFO:root:upblocks.6.block1.2, tmp_sum: 237568
+INFO:root:upblocks.8.block1.2, tmp_sum: 237568
+INFO:root:upblocks.9.block1.2, tmp_sum: 712704
+INFO:root:upblocks.10.block1.2, tmp_sum: 401408
+INFO:root:upblocks.12.block1.2, tmp_sum: 163840
+INFO:root:upblocks.13.block1.2, tmp_sum: 126976
+INFO:root:upblocks.14.block1.2, tmp_sum: 126976
+INFO:root:sum: 14245504, weight_sum: 54837248, proportion: 0.25977790355682373
+INFO:root:indicator_param: [(tensor(0.0066, device='cuda:0'), tensor(-0.0002, device='cuda:0'))]
+INFO:root:indicator_param_update: -0.010229554027318954
+INFO:root:scale rate: 5.0
+INFO:root:scale_rate: 4.0, [] 
+INFO:root:adaptive_lr: 0.2 [] [5.0]
+INFO:root:round: 1
+INFO:root:indicator_param: [(tensor(0.0509, device='cuda:0'), tensor(0.0011, device='cuda:0'))]
+INFO:root:indicator_param_update: 0.05682576075196266
+INFO:root:scale rate: 4.0
+INFO:root:scale_rate: 3.2, [] 
+INFO:root:adaptive_lr: 0.2 [] [4.0, 5.0]
+INFO:root:round: 2
+INFO:root:indicator_param: [(tensor(0.0219, device='cuda:0'), tensor(-0.0002, device='cuda:0'))]
+INFO:root:indicator_param_update: -0.011751718819141388
+INFO:root:scale rate: 3.2
+INFO:root:scale_rate: 2.5600000000000005, [] 
+INFO:root:adaptive_lr: 0.2 [] [3.2, 4.0, 5.0]
+INFO:root:round: 3
+INFO:root:indicator_param: [(tensor(-0.0238, device='cuda:0'), tensor(0.0014, device='cuda:0'))]
+INFO:root:indicator_param_update: 0.06759622693061829
+INFO:root:scale rate: 2.5600000000000005
+INFO:root:scale_rate: 2.0480000000000005, [] 
+INFO:root:adaptive_lr: 0.2 [] [2.5600000000000005, 3.2, 4.0, 5.0]
+INFO:root:round: 4
+INFO:root:indicator_param: [(tensor(0.0068, device='cuda:0'), tensor(-0.0002, device='cuda:0'))]
+INFO:root:indicator_param_update: -0.009796586818993092
+INFO:root:scale rate: 2.0480000000000005
+INFO:root:scale_rate: 1.6384000000000005, [] 
+INFO:root:adaptive_lr: 0.2 [] [2.0480000000000005, 2.5600000000000005, 3.2, 4.0, 5.0]
+INFO:root:round: 5
+INFO:root:indicator_param: [(tensor(-0.0574, device='cuda:0'), tensor(0.0016, device='cuda:0'))]
+INFO:root:indicator_param_update: 0.08004531264305115
+INFO:root:scale rate: 1.6384000000000005
+INFO:root:scale_rate: 1.3107200000000006, [] 
+INFO:root:adaptive_lr: 0.2 [] [1.6384000000000005, 2.0480000000000005, 2.5600000000000005, 3.2, 4.0, 5.0]
+INFO:root:round: 6
+INFO:root:round: 0
+INFO:root:use diffusion importance: 2, 0.4 True
+INFO:root:upblocks.13.block2.3, tmp_sum: 172032
+INFO:root:downblocks.0.block1.2, tmp_sum: 180224
+INFO:root:time_embedding.timembedding.3, tmp_sum: 2443776
+INFO:root:time_embedding.timembedding.1, tmp_sum: 254080
+INFO:root:upblocks.12.block2.3, tmp_sum: 180224
+INFO:root:upblocks.11.main, tmp_sum: 344064
+INFO:root:downblocks.1.block1.2, tmp_sum: 90112
+INFO:root:upblocks.10.attn.proj, tmp_sum: 385024
+INFO:root:upblocks.10.attn.proj_v, tmp_sum: 150528
+INFO:root:upblocks.9.attn.proj, tmp_sum: 204800
+INFO:root:upblocks.9.attn.proj_v, tmp_sum: 141312
+INFO:root:downblocks.3.attn.proj, tmp_sum: 1056768
+INFO:root:downblocks.3.attn.proj_v, tmp_sum: 156672
+INFO:root:downblocks.3.block1.2, tmp_sum: 253952
+INFO:root:upblocks.8.attn.proj, tmp_sum: 409600
+INFO:root:upblocks.8.attn.proj_v, tmp_sum: 140288
+INFO:root:upblocks.7.main, tmp_sum: 155648
+INFO:root:downblocks.4.attn.proj_v, tmp_sum: 157696
+INFO:root:downblocks.4.block1.2, tmp_sum: 327680
+INFO:root:upblocks.6.block2.3, tmp_sum: 783360
+INFO:root:upblocks.5.block2.3, tmp_sum: 172032
+INFO:root:downblocks.6.block1.2, tmp_sum: 327680
+INFO:root:upblocks.4.block2.3, tmp_sum: 344064
+INFO:root:upblocks.3.main, tmp_sum: 155648
+INFO:root:downblocks.7.block1.2, tmp_sum: 327680
+INFO:root:upblocks.2.block2.3, tmp_sum: 547840
+INFO:root:downblocks.10.block1.2, tmp_sum: 163840
+INFO:root:middleblocks.0.attn.proj_v, tmp_sum: 131072
+INFO:root:middleblocks.0.block1.2, tmp_sum: 163840
+INFO:root:middleblocks.1.block1.2, tmp_sum: 491520
+INFO:root:upblocks.0.block1.2, tmp_sum: 237568
+INFO:root:upblocks.1.block1.2, tmp_sum: 237568
+INFO:root:upblocks.4.block1.2, tmp_sum: 712704
+INFO:root:upblocks.5.block1.2, tmp_sum: 237568
+INFO:root:upblocks.6.block1.2, tmp_sum: 237568
+INFO:root:upblocks.8.block1.2, tmp_sum: 237568
+INFO:root:upblocks.9.block1.2, tmp_sum: 712704
+INFO:root:upblocks.10.block1.2, tmp_sum: 401408
+INFO:root:upblocks.12.block1.2, tmp_sum: 163840
+INFO:root:upblocks.13.block1.2, tmp_sum: 126976
+INFO:root:upblocks.14.block1.2, tmp_sum: 126976
+INFO:root:sum: 14245504, weight_sum: 54837248, proportion: 0.25977790355682373
+INFO:root:indicator_param: [(tensor(0.0066, device='cuda:0'), tensor(-0.0002, device='cuda:0'))]
+INFO:root:indicator_param_update: -0.010229554027318954
+INFO:root:scale rate: 5.0
+INFO:root:scale_rate: 4.0, [] 
+INFO:root:adaptive_lr: 0.2 [] [5.0]
+INFO:root:round: 1
+INFO:root:indicator_param: [(tensor(0.0509, device='cuda:0'), tensor(0.0011, device='cuda:0'))]
+INFO:root:indicator_param_update: 0.05682576447725296
+INFO:root:scale rate: 4.0

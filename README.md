@@ -36,6 +36,51 @@ pip install absl-py==2.1.0 tensorboardX==2.6.2.2 tqdm==4.66.1 imageio==2.34.0 sc
 pip install scikit-learn==1.4.1.post1 matplotlib==3.8.0 ray==2.9.1 pytorch-fid==0.3.0
 ```
 
+### Data Preparation
+**CIFAR10**
+Download and Untar it into ```./data```:
+```
+cd ./data
+wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+tar -xf cifar-10-python.tar.gz
+```
+
+## Train AdaSCP with FL Defenses
+
+AdaSCP + Multi-Krum
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique multi-krum \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
+## Test Poisoned Global Model
+
+### Poisoned Global Models
+Download poisoned models from [here]() for evaluation in Table 1.
+
+### FID
+**CIFAR** Example:
+```
+python bash_test_fid_multi_defense.py "cuda:0" 'multi-krum_1000_0.5_diffpoi_proportion_0.4_scale_5.0_ema_0.9999_global_adaptive_0.2_single_tabel1'
+```
+
+### MSE
+**CIFAR** Example:
+```
+python bash_test_diffusion_attack_uncond_multi_mask_seed.py "cuda:0" 1000 'multi-krum_1000_0.5_diffpoi_proportion_0.4_scale_5.0_ema_0.9999_global_adaptive_0.2_single_tabel1' 42
+```
+
 ## TODO:
 - [x] Environment setup
 - [ ] Release the code of DataStealing.
