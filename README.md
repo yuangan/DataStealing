@@ -45,6 +45,11 @@ wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 tar -xf cifar-10-python.tar.gz
 ```
 
+### Model Preparation
+Pretrained FL models with 5 clients: [CIFAR-10](https://disk.yandex.com/d/XhkEe5NWihCW6g)
+
+Download and put the folder into ```./logs/```
+
 ## Train AdaSCP with FL Defenses
 
 AdaSCP + Multi-Krum
@@ -67,7 +72,7 @@ CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multita
 ## Test Poisoned Global Model
 
 ### Poisoned Global Models
-Download poisoned models from [here]() for evaluation in Table 1.
+Download poisoned models from [here](https://disk.yandex.com/d/wzqExoBL-6uIpA) for evaluation in Table 1.
 
 ### FID
 **CIFAR** Example:
