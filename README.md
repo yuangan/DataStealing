@@ -52,6 +52,40 @@ Download and unzip the folder into ```./logs/```
 
 ## Train AdaSCP with FL Defenses
 
+AdaSCP + FedAvg
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique no-defense \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
+AdaSCP + Krum
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique krum \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
 AdaSCP + Multi-Krum
 
 ```
@@ -61,6 +95,57 @@ CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multita
           --poison_type diff_poison \
           --model_poison_scale_rate 5 \
           --defense_technique multi-krum \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
+AdaSCP + Foolsgold
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique foolsgold \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
+AdaSCP + RFA
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique rfa \
+          --num_targets 1000 \
+          --critical_proportion 0.4 \
+          --global_pruning \
+          --use_adaptive \
+          --adaptive_lr 0.2 \
+          --data_distribution_seed 42
+```
+
+AdaSCP + Multi-metrics
+
+```
+CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multitarget_defense_single.py \
+          --train --flagfile ./config/CIFAR10_uncond.txt \
+          --batch_size_attack_per 0.5 \
+          --poison_type diff_poison \
+          --model_poison_scale_rate 5 \
+          --defense_technique multi-metrics \
           --num_targets 1000 \
           --critical_proportion 0.4 \
           --global_pruning \
