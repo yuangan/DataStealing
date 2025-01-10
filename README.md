@@ -176,3 +176,12 @@ python bash_test_diffusion_attack_uncond_multi_mask_seed.py "cuda:0" 1000 'multi
 - [ ] Release the code of DataStealing.
 - [ ] Release the metrics calculation of DataStealing.
 
+### Citation
+If you find this code helpful for your research, please cite:
+@inproceedings{gandatastealing,
+  title={DataStealing: Steal Data from Diffusion Models in Federated Learning with Multiple Trojans},
+  author={Gan, Yuan and Miao, Jiaxu and Yang, Yi},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+  year={2024}
+}
+
