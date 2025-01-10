@@ -186,3 +186,6 @@ If you find this code helpful for your research, please cite:
   year={2024}
 }
 ```
+
+### Acknowledge
+We acknowledge these works for their public code: [Multi-metrics](https://github.com/siquanhuang/Multi-metrics),  [BCLayerSub.](https://github.com/zhmzm/Poisoning_Backdoor-critical_Layers_Attack). Thanks for their awesome works.
