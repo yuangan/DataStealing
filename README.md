@@ -157,7 +157,7 @@ CUDA_VISIBLE_DEVICES=0 python fedavg_ray_actor_bd_noniid/main_fed_uncond_multita
 ## Test Poisoned Global Model
 
 ### Poisoned Global Models
-Download poisoned models from [here](https://disk.yandex.com/d/XhkEe5NWihCW6g). Unzip folders into ```./logs/``` for evaluation.
+Download poisoned models from [here](https://disk.yandex.com/d/XhkEe5NWihCW6g). Unzip folders into ```./logs/``` for evaluation. For example: ```./logs/cifar10_fedavg_ray_actor_att_mul_uncond_def_noniid/multi-krum_1000_0.5_diffpoi_proportion_0.4_scale_5.0_ema_0.9999_global_adaptive_0.2_single_tabel1/global_ckpt_round300.pt```
 
 ### FID
 **CIFAR** Example:
