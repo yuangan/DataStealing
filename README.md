@@ -179,11 +179,13 @@ python bash_test_diffusion_attack_uncond_multi_mask_seed.py "cuda:0" 1000 'multi
 ### Citation
 If you find this code helpful for your research, please cite:
 ```
-@inproceedings{gandatastealing,
+@article{gan2025datastealing,
   title={DataStealing: Steal Data from Diffusion Models in Federated Learning with Multiple Trojans},
   author={Gan, Yuan and Miao, Jiaxu and Yang, Yi},
-  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-  year={2024}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={132614--132646},
+  year={2025}
 }
 ```
 
