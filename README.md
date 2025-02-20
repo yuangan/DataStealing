@@ -48,7 +48,7 @@ tar -xf cifar-10-python.tar.gz
 ### Model Preparation
 Pretrained FL models with 5 clients: [CIFAR-10](https://disk.yandex.com/d/wzqExoBL-6uIpA)
 
-Download and unzip the folder into ```./logs/```
+Download and unzip the folder into ```./logs/```. Then you will get ```./logs/cifar10_fedavg_uncond_noniid_0325/global_ckpt_round2000.pt```
 
 ## Train AdaSCP with FL Defenses
 
