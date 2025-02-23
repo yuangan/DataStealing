@@ -175,7 +175,7 @@ python bash_test_diffusion_attack_uncond_multi_mask_seed.py "cuda:0" 1000 'multi
 
 ## TODO:
 - [x] Environment setup
-- [ ] Release the code of DataStealing.
+- [x] Release the code of DataStealing.
 - [ ] Release the metrics calculation of DataStealing.
 
 ### Citation
@@ -192,4 +192,4 @@ If you find this code helpful for your research, please cite:
 ```
 
 ### Acknowledge
-We acknowledge these works for their public code: [Multi-metrics](https://github.com/siquanhuang/Multi-metrics),  [BCLayerSub.](https://github.com/zhmzm/Poisoning_Backdoor-critical_Layers_Attack). Thanks for their awesome works.
+We acknowledge these works for their public code: [Multi-metrics](https://github.com/siquanhuang/Multi-metrics),  [BCLayerSub](https://github.com/zhmzm/Poisoning_Backdoor-critical_Layers_Attack). Thanks for their awesome works.
